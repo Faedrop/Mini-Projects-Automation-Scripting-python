@@ -98,21 +98,12 @@ label.pack(pady=20)
 startbutton = ttk.Button(root,text="Clean Desktop", command=start_cleaning)
 startbutton.pack()
 
-
-
-
 log_label = ttk.Label(root,text="Log Output:")
 log_label.pack(pady=20)
 
 log_text = scrolledtext.ScrolledText(root, width=70, height=10)
 log_text.pack(pady=20)
 log_text.insert(tk.END, "Ready to start.\n")
-
-
-
-
-
-
 
 root.mainloop()
 

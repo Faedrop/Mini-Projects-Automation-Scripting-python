@@ -15,4 +15,5 @@ for item in Desktop_traj.iterdir():
 print("File extensions and their counts on the Desktop:")
 print("-" * 40)
 for extension, count in extensions_counter.items():
+
     print(f"{extension}: {count}")
